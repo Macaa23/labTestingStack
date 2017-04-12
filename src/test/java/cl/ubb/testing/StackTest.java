@@ -30,5 +30,18 @@ public class StackTest {
 		//Assert
 		assertEquals("No Vacia",st.floors());
 	}
+	
+	@Test
+	public void addOneAndTwoStackNotEmpty(){
+		//Arrange
+		Stack st = new Stack();
+		
+		//Act
+		st.add(1);
+		st.add(2);
+		
+		//Assert
+		assertEquals("No Vacia", st.floors());
+	}
 
 }

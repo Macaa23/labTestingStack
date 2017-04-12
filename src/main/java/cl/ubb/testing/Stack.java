@@ -14,9 +14,10 @@ public class Stack {
 		}else{
 			return "No Vacia";
 		}
+		
 	}
 	
 	public void add(int n){
-		this.top = this.top + n;
+		this.top++;
 	}
 }
