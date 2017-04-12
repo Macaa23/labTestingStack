@@ -8,7 +8,15 @@ public class Stack {
 		this.top = 0;
 	}
 	
-	public int floors(){
-		return top;
+	public String floors(){
+		if (top == 0){ 
+			return "Vacia";
+		}else{
+			return "No Vacia";
+		}
+	}
+	
+	public void add(int n){
+		this.top = this.top + n;
 	}
 }
